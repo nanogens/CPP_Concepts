@@ -5,11 +5,25 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advanced C++ Programming-Udemy", "Advanced C++ Programming-Udemy", "{5C841799-CB08-4E6F-BE5A-EE7960857EBD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++ Crash Course For C Programmers", "C++ Crash Course For C Programmers", "{5BDBA5BA-9C97-4C15-B5EA-F99B85E4FF24}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++ Crash Course For C Programmers-Website", "C++ Crash Course For C Programmers-Website", "{5BDBA5BA-9C97-4C15-B5EA-F99B85E4FF24}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++ General Concepts", "C++ General Concepts", "{2AED24BB-9219-43D2-A26A-2B4A0F95A586}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++ General Concepts-General", "C++ General Concepts-General", "{2AED24BB-9219-43D2-A26A-2B4A0F95A586}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Virtual_Ineritance", "C++ General Concepts\Virtual_Ineritance\Virtual_Ineritance.vcxproj", "{8561F338-903C-49A7-9D33-448B8662E4BD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiveDeepinC++-Udemy", "DiveDeepinC++-Udemy", "{6DAA8803-9424-41C4-896B-0C4CFD6A1EAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_1", "Section_1", "{641A661B-BFFC-428C-81C8-AE797796D0DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_2", "Section_2", "{37BFD741-AAC3-494B-9871-BFF52E857ABF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_1_HelloWorld", "DiveDeepinC++-Udemy\CourseContents\Section_1\1_1_HelloWorld\1_1_HelloWorld\1_1_HelloWorld.vcxproj", "{C9FEF25F-21A5-4D69-930B-3B2274639CDB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_1_FirstProgramInCPP", "DiveDeepinC++-Udemy\CourseContents\Section_2\2_1_FirstProgramInCPP\2_1_FirstProgramInCPP\2_1_FirstProgramInCPP.vcxproj", "{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_FromCtoCPP", "C++ Crash Course for C Programmers-Website\CourseContents\2_FromCtoCPP\2_FromCtoCPP.vcxproj", "{94349CD6-7BF3-4A54-987A-00BD69C6DE89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_6", "Section_6", "{D41CFE89-2C7B-4ECD-B4E6-6EF20489069A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sequential_Containers", "Advanced C++ Programming-Udemy\CourseContents\Section_6\Sequential_Containers\Sequential_Containers.vcxproj", "{2718AC97-08DA-4F44-9E5F-A53914E73C53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,20 +33,50 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8561F338-903C-49A7-9D33-448B8662E4BD}.Debug|x64.ActiveCfg = Debug|x64
-		{8561F338-903C-49A7-9D33-448B8662E4BD}.Debug|x64.Build.0 = Debug|x64
-		{8561F338-903C-49A7-9D33-448B8662E4BD}.Debug|x86.ActiveCfg = Debug|Win32
-		{8561F338-903C-49A7-9D33-448B8662E4BD}.Debug|x86.Build.0 = Debug|Win32
-		{8561F338-903C-49A7-9D33-448B8662E4BD}.Release|x64.ActiveCfg = Release|x64
-		{8561F338-903C-49A7-9D33-448B8662E4BD}.Release|x64.Build.0 = Release|x64
-		{8561F338-903C-49A7-9D33-448B8662E4BD}.Release|x86.ActiveCfg = Release|Win32
-		{8561F338-903C-49A7-9D33-448B8662E4BD}.Release|x86.Build.0 = Release|Win32
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB}.Debug|x64.ActiveCfg = Debug|x64
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB}.Debug|x64.Build.0 = Debug|x64
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB}.Debug|x86.Build.0 = Debug|Win32
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB}.Release|x64.ActiveCfg = Release|x64
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB}.Release|x64.Build.0 = Release|x64
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB}.Release|x86.ActiveCfg = Release|Win32
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB}.Release|x86.Build.0 = Release|Win32
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}.Debug|x64.ActiveCfg = Debug|x64
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}.Debug|x64.Build.0 = Debug|x64
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}.Debug|x86.ActiveCfg = Debug|Win32
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}.Debug|x86.Build.0 = Debug|Win32
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}.Release|x64.ActiveCfg = Release|x64
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}.Release|x64.Build.0 = Release|x64
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}.Release|x86.ActiveCfg = Release|Win32
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386}.Release|x86.Build.0 = Release|Win32
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89}.Debug|x64.ActiveCfg = Debug|x64
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89}.Debug|x64.Build.0 = Debug|x64
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89}.Debug|x86.ActiveCfg = Debug|Win32
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89}.Debug|x86.Build.0 = Debug|Win32
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89}.Release|x64.ActiveCfg = Release|x64
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89}.Release|x64.Build.0 = Release|x64
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89}.Release|x86.ActiveCfg = Release|Win32
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89}.Release|x86.Build.0 = Release|Win32
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53}.Debug|x64.ActiveCfg = Debug|x64
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53}.Debug|x64.Build.0 = Debug|x64
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53}.Debug|x86.ActiveCfg = Debug|Win32
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53}.Debug|x86.Build.0 = Debug|Win32
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53}.Release|x64.ActiveCfg = Release|x64
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53}.Release|x64.Build.0 = Release|x64
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53}.Release|x86.ActiveCfg = Release|Win32
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8561F338-903C-49A7-9D33-448B8662E4BD} = {2AED24BB-9219-43D2-A26A-2B4A0F95A586}
+		{641A661B-BFFC-428C-81C8-AE797796D0DE} = {6DAA8803-9424-41C4-896B-0C4CFD6A1EAF}
+		{37BFD741-AAC3-494B-9871-BFF52E857ABF} = {6DAA8803-9424-41C4-896B-0C4CFD6A1EAF}
+		{C9FEF25F-21A5-4D69-930B-3B2274639CDB} = {641A661B-BFFC-428C-81C8-AE797796D0DE}
+		{B68C2ED9-EE99-49F1-98DC-D4F71DFEF386} = {37BFD741-AAC3-494B-9871-BFF52E857ABF}
+		{94349CD6-7BF3-4A54-987A-00BD69C6DE89} = {5BDBA5BA-9C97-4C15-B5EA-F99B85E4FF24}
+		{D41CFE89-2C7B-4ECD-B4E6-6EF20489069A} = {5C841799-CB08-4E6F-BE5A-EE7960857EBD}
+		{2718AC97-08DA-4F44-9E5F-A53914E73C53} = {D41CFE89-2C7B-4ECD-B4E6-6EF20489069A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {120D5D6B-DA54-42F4-805F-A6C266DA33B3}
