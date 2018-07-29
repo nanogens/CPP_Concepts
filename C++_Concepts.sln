@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_6", "Section_6", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sequential_Containers", "Advanced C++ Programming-Udemy\CourseContents\Section_6\Sequential_Containers\Sequential_Containers.vcxproj", "{2718AC97-08DA-4F44-9E5F-A53914E73C53}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_7", "Section_7", "{5498EC8F-7A98-414D-A909-97A3427AC42B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -77,6 +79,7 @@ Global
 		{94349CD6-7BF3-4A54-987A-00BD69C6DE89} = {5BDBA5BA-9C97-4C15-B5EA-F99B85E4FF24}
 		{D41CFE89-2C7B-4ECD-B4E6-6EF20489069A} = {5C841799-CB08-4E6F-BE5A-EE7960857EBD}
 		{2718AC97-08DA-4F44-9E5F-A53914E73C53} = {D41CFE89-2C7B-4ECD-B4E6-6EF20489069A}
+		{5498EC8F-7A98-414D-A909-97A3427AC42B} = {5C841799-CB08-4E6F-BE5A-EE7960857EBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {120D5D6B-DA54-42F4-805F-A6C266DA33B3}
