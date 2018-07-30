@@ -1,0 +1,4 @@
+﻿  ReadOnlyAlgorithms.cpp
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\readonlyalgorithms\readonlyalgorithms\readonlyalgorithms.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  ReadOnlyAlgorithms.vcxproj -> D:\GitHub\CPP_Concepts\Debug\ReadOnlyAlgorithms.exe
+  ReadOnlyAlgorithms.vcxproj -> D:\GitHub\CPP_Concepts\Debug\ReadOnlyAlgorithms.pdb (Partial PDB)
