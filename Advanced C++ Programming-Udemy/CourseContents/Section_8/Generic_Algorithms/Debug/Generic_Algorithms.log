@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Generic_Algorithms.cpp
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(36): warning C4018: '<': signed/unsigned mismatch
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(89): warning C4018: '<': signed/unsigned mismatch
+  d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(107): note: see reference to function template instantiation 'void Display<int>(std::vector<int,std::allocator<_Ty>>)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(172): warning C4018: '<': signed/unsigned mismatch
+  d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(209): note: see reference to function template instantiation 'void DisplayDeque<int>(std::deque<int,std::allocator<_Ty>>)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  Generic_Algorithms.vcxproj -> D:\GitHub\CPP_Concepts\Advanced C++ Programming-Udemy\CourseContents\Section_8\Generic_Algorithms\.\Debug\Generic_Algorithms.exe
+  Generic_Algorithms.vcxproj -> .\Debug\Generic_Algorithms.pdb (Partial PDB)
