@@ -225,6 +225,7 @@ class BST
 	Node *Search(string data, Node *aNode); // a search function that returns a pointer to a node.  Parameters are a data string and a pointer to a node
 	void preOrder(Node *aNode); // a means of traverse a binary search tree
 	void postOrder(Node *aNode);
+	void inOrder(Node *aNode);
   public:
 	BST();
 	void Insert(string data);
@@ -239,18 +240,147 @@ BST::BST()
   root = NULL;
 }
 
+// the private Insert method
 void BST::Insert(string data, Node *aNode)
 {
-  if (data < aNode->data)
+  if (data < aNode->data) 
   {
-
+	// decides where to insert data.  either at the corrent node or some node further down the tree	
+	if (aNode->left != NULL) 	// check to see if the data is the current node.  if it is, we have to ensure the data to the left is not equal to null.
+	{
+	  Insert(data, aNode->left);
+	}
+	else
+	{
+	  aNode->left = new Node(data); // create a new node
+	  aNode->left->left = NULL;  // setting the left and right nodes of the newly created node to NULL
+	  aNode->left->right = NULL;
+	}
   }
+  else if (data >= aNode->data)
+  {
+	if (aNode->right != NULL)
+	{
+	  Insert(data, aNode->right);
+	}
+	else
+	{
+	  aNode->right = new Node(data);
+	  aNode->right->left = NULL;
+	  aNode->right->right = NULL;
+	}
+  }
+}
+
+// the public Insert
+void BST::Insert(string data)
+{
+  if (root != NULL)
+  {
+	Insert(data, root);
+  }
+  else
+  {
+	root = new Node(data);
+	root->left = NULL;
+	root->right = NULL;
+  }
+}
+
+// the public Search
+Node* BST::Search(string data, Node *aNode)
+{
+  if (aNode != NULL)
+  {
+	if(data == aNode->data) // if the data we are searching for was found in that node
+	{
+	  return aNode;
+	}
+	if (data < aNode->data)
+	{
+	  return Search(data, aNode->left);
+	}
+	else
+	{
+	  return Search(data, aNode->right);
+	}
+  }
+  else
+  {
+	return NULL;
+  }
+}
+
+// public preOrder
+void BST::preOrder()
+{
+  preOrder(root);
+}
+
+void BST::preOrder(Node *aNode)
+{
+  if (aNode != NULL)
+  {
+	cout << aNode->data << " ";
+	preOrder(aNode->left);
+	preOrder(aNode->right);
+  }
+}
+
+// public inOrder
+void BST::inOrder()
+{
+  inOrder(root);
+}
+
+// private inOrder
+void BST::inOrder(Node *aNode)
+{
+  if (aNode != NULL)
+  {
+	inOrder(aNode->left);
+	cout << aNode->data << " ";
+	inOrder(aNode->right);
+  }
+}
+
+// public postOrder
+void BST::postOrder()
+{
+  postOrder(root);
+}
+
+// private postOrder
+void BST::postOrder(Node *aNode)
+{
+  if (aNode != NULL)
+  {
+	postOrder(aNode->left);
+	postOrder(aNode->right);
+	cout << aNode->data << " ";
+  }
+}
+
+// the private Search
+Node* BST::Search(string data)
+{
+  return Search(data, root);
 }
 
 
 void BinaryTree()
 {
-  
+  BST *btree = new BST;
+  btree->Insert("apple");
+  btree->Insert("mango");
+  btree->Insert("kiwi");
+  btree->preOrder();
+  cout << endl;
+  btree->inOrder();
+  cout << endl;
+  btree->postOrder();
+
+  getchar();
 }
 
 int main(void)
