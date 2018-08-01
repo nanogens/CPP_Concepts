@@ -208,7 +208,8 @@ class Node
 	string data;
 	Node *left; // left node pointer
 	Node *right; // right node pointer
-	Node(string d) // a constructor that places data into the data field  /0\
+
+	Node(string d) // a constructor that places data into the data field  
 	{
 	  data = d;
 	  left = NULL;
@@ -216,9 +217,40 @@ class Node
 	}
 };
 
+class BST
+{
+  private:
+	Node *root; // our first field and only field is root node.
+	void Insert(string data, Node *aNode); // a private search function that will be called from a public search function
+	Node *Search(string data, Node *aNode); // a search function that returns a pointer to a node.  Parameters are a data string and a pointer to a node
+	void preOrder(Node *aNode); // a means of traverse a binary search tree
+	void postOrder(Node *aNode);
+  public:
+	BST();
+	void Insert(string data);
+	Node *Search(string data); // the data being searched
+	void preOrder();
+	void inOrder();
+	void postOrder();
+};
+
+BST::BST()
+{
+  root = NULL;
+}
+
+void BST::Insert(string data, Node *aNode)
+{
+  if (data < aNode->data)
+  {
+
+  }
+}
+
+
 void BinaryTree()
 {
-
+  
 }
 
 int main(void)
