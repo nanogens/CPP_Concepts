@@ -249,10 +249,10 @@ void Iterator_Reverse()
 
 int main(void)
 {
-  //Read_Only_Algorithms(); // will access the data in a data structure but not make any modifications
-  //Read_Write_Algorithms(); // algorithms that write data to the container they are working on
-  //Sorting_Algorithms();
-  //Iterator_Front_Back_Inserter(); // to specify a particular place in which to insert data into a container
+  Read_Only_Algorithms(); // will access the data in a data structure but not make any modifications
+  Read_Write_Algorithms(); // algorithms that write data to the container they are working on
+  Sorting_Algorithms();
+  Iterator_Front_Back_Inserter(); // to specify a particular place in which to insert data into a container
   Iterator_Reverse(); // we can use reverse iterators to determine if a word is a palindrome or not
   return 0;
 }

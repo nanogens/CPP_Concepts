@@ -123,9 +123,9 @@ void Sets()
 int main()
 {
 	// Section 7
-	//Pair();
-	//Map1();
-	//Map2();
+	Pair();
+	Map1();
+	Map2();
 	Sets(); // repeated words only inserted one time in the set (duplicates eliminated).  output is in alphabetical order.
 	return 0; // must return an int or it will crash!
 }
