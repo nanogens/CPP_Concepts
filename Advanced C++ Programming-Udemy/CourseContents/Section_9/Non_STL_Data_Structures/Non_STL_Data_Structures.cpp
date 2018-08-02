@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// ====================================== STACK ======================================
 
 class Stack1
 {
@@ -80,6 +81,8 @@ void Stack()
 
   getchar();
 }
+
+// ====================================== QUEUE ======================================
 
 class Queue1
 {
@@ -201,6 +204,8 @@ void Queue()
   cout << queue1.Count() << endl << endl;
   getchar();
 }
+
+// ====================================== BINARY SEARCH TREE ======================================
 
 class Node
 {
@@ -367,7 +372,6 @@ Node* BST::Search(string data)
   return Search(data, root);
 }
 
-
 void BinaryTree()
 {
   BST *btree = new BST;
@@ -383,10 +387,139 @@ void BinaryTree()
   getchar();
 }
 
+
+// ====================================== LINKED LIST ======================================
+
+
+class LLNode
+{
+  public:
+	string data;
+	LLNode* next;
+	LLNode(string aData, LLNode* aNext)
+	{
+	  data = aData;
+	  next = aNext;
+	}
+	string getData() // get data
+	{
+	  return data;
+	}
+	LLNode *Next() // get pointer to next node
+	{
+	  return next;
+	}
+	void setNext(LLNode *aNext) // this function is used to append a new node to the linked list
+	{
+	  next = aNext;
+	}
+};
+
+class LList
+{
+  public:
+	LLNode *head; // every linked list has to start off with a head node.  the first node in the linked list.
+	LList()
+	{
+	  head = NULL; // everytime we have a new node, its head is set to point to NULL.  kind of like push_back for a vector.
+	}
+	void Append(string data)
+	{
+	  LLNode *newNode = new LLNode(data, NULL);
+	  LLNode *tmp = head;
+	  if (tmp != NULL)
+	  {
+		while (tmp->Next() != NULL)
+		{
+		  tmp = tmp->Next();
+		}
+		tmp->setNext(newNode);
+	  }
+	  else
+	  {
+		head = newNode;
+	  }
+	}
+	void Delete(string data)
+	{
+	  LLNode *tmp = head;
+	  if (tmp == NULL) // if this temporary node is NULL (there are no nodes in the list), just return
+	  {
+		// why does he not delete tmp here?? because its null, nothing to delete!
+		return;
+	  }
+	  if (tmp->Next() == NULL) // tests to see if we are at the end of the list
+	  {
+		delete tmp;
+		head = NULL;
+	  }
+	  else
+	  {
+		LLNode *prev = NULL;
+		do // we are switching the node before the node we want to delete so it points to the node after we want to delete
+		{
+		  if (tmp->getData() == data) // if we found the data we are searching for in the node
+		  {
+			break; // break out of while - prev then is the previous node (the 2 lines below are not executed)
+		  }
+		  prev = tmp; 
+		  tmp = tmp->Next();
+		} 
+		while (tmp != NULL);
+		prev->setNext(tmp->Next()); // the previous node is set to point to the node ahead of the node where data matched (i.e. node we want to delete)
+		delete tmp;
+	  }
+	}
+	void Print()
+	{
+	  LLNode *tmp = head;
+	  if (tmp == NULL) // if there are no nodes
+	  {
+		cout << "Empty list" << endl;
+		return;
+	  }
+	  if (tmp->Next() == NULL) // if there is just one node
+	  {
+		cout << tmp->getData();
+		cout << " --> ";
+		cout << "NULL";
+	  }
+	  else
+	  {
+		do
+		{
+		  cout << tmp->getData();
+		  cout << " --> ";
+		  tmp = tmp->Next();
+		} 
+		while (tmp != NULL);
+		cout << "NULL" << endl;
+	  }
+	}
+};
+
+void SinglyLinkedList()
+{
+  LList *no = new LList();
+  no->Append("One");
+  no->Append("Two");
+  no->Append("Three");
+  no->Append("Four");
+
+  no->Print();
+  getchar();
+
+  no->Delete("Three"); // NOTE : You cannot delete the HEAD node until all other nodes are deleted.  That is a general rule of linked lists.
+  no->Print();
+  getchar();
+}
+
+
 int main(void)
 {
   //Stack(); // LIFO
   //Queue(); // FIFO
-  BinaryTree(); 
+  //BinaryTree();
+  SinglyLinkedList(); // a series of nodes which are connected by pointers.  a node consists of 2 fields : a data field and a next field which points to the next node in the list
   return 0;
 }
