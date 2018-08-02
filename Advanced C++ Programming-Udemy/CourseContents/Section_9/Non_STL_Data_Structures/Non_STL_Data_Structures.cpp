@@ -158,6 +158,9 @@ class Queue1
 
 void Queue()
 {
+  system("CLS");
+  cout << "\n --- Queue \n\n";
+
   Queue1 queue1;
   queue1.In("A");
   queue1.In("B");
@@ -372,8 +375,11 @@ Node* BST::Search(string data)
   return Search(data, root);
 }
 
-void BinaryTree()
+void BinarySearchTree()
 {
+  system("CLS");
+  cout << "\n --- Binary Search Tree \n\n";
+
   BST *btree = new BST;
   btree->Insert("apple");
   btree->Insert("mango");
@@ -500,6 +506,9 @@ class LList
 
 void SinglyLinkedList()
 {
+  system("CLS");
+  cout << "\n --- Singly Linked List \n\n";
+
   LList *no = new LList();
   no->Append("One");
   no->Append("Two");
@@ -508,7 +517,8 @@ void SinglyLinkedList()
 
   no->Print();
   getchar();
-
+  
+  cout << "Deleting the string Three from the Linked List" << endl;
   no->Delete("Three"); // NOTE : You cannot delete the HEAD node until all other nodes are deleted.  That is a general rule of linked lists.
   no->Print();
   getchar();
@@ -517,9 +527,9 @@ void SinglyLinkedList()
 
 int main(void)
 {
-  //Stack(); // LIFO
-  //Queue(); // FIFO
-  //BinaryTree();
+  Stack(); // LIFO
+  Queue(); // FIFO
+  BinarySearchTree();
   SinglyLinkedList(); // a series of nodes which are connected by pointers.  a node consists of 2 fields : a data field and a next field which points to the next node in the list
   return 0;
 }

@@ -219,10 +219,10 @@ void Deque2()
 int main()
 {
 	// Section 6
-	//Vector();
-	//ListVector();
-	//Deque1(); //  allows us to add / remove items at both the front and back of the deck
-	//Deque2();
+	Vector();
+	ListVector();
+	Deque1(); //  allows us to add / remove items at both the front and back of the deck
+	Deque2();
 
 	return 0; // must return an int or it will crash!
 }
