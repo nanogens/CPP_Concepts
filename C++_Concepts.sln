@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advanced C++ Programming-Udemy", "Advanced C++ Programming-Udemy", "{5C841799-CB08-4E6F-BE5A-EE7960857EBD}"
 EndProject
@@ -44,6 +44,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_12", "Section_12", "{90FE1BA7-A6FB-4A8A-9132-FA40066091EE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String_Class", "Advanced C++ Programming-Udemy\CourseContents\Section_12\String_Class\String_Class.vcxproj", "{86667C6C-6492-42F4-A902-DE806BFA7AC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FiletoVector", "C++ General Concepts-General\CourseContents\FiletoVector\FiletoVector.vcxproj", "{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Virtual_Ineritance", "C++ General Concepts-General\CourseContents\Virtual_Ineritance\Virtual_Ineritance.vcxproj", "{8561F338-903C-49A7-9D33-448B8662E4BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +129,22 @@ Global
 		{86667C6C-6492-42F4-A902-DE806BFA7AC9}.Release|x64.Build.0 = Release|x64
 		{86667C6C-6492-42F4-A902-DE806BFA7AC9}.Release|x86.ActiveCfg = Release|Win32
 		{86667C6C-6492-42F4-A902-DE806BFA7AC9}.Release|x86.Build.0 = Release|Win32
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}.Debug|x64.ActiveCfg = Debug|x64
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}.Debug|x64.Build.0 = Debug|x64
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}.Debug|x86.Build.0 = Debug|Win32
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}.Release|x64.ActiveCfg = Release|x64
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}.Release|x64.Build.0 = Release|x64
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}.Release|x86.ActiveCfg = Release|Win32
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB}.Release|x86.Build.0 = Release|Win32
+		{8561F338-903C-49A7-9D33-448B8662E4BD}.Debug|x64.ActiveCfg = Debug|x64
+		{8561F338-903C-49A7-9D33-448B8662E4BD}.Debug|x64.Build.0 = Debug|x64
+		{8561F338-903C-49A7-9D33-448B8662E4BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{8561F338-903C-49A7-9D33-448B8662E4BD}.Debug|x86.Build.0 = Debug|Win32
+		{8561F338-903C-49A7-9D33-448B8662E4BD}.Release|x64.ActiveCfg = Release|x64
+		{8561F338-903C-49A7-9D33-448B8662E4BD}.Release|x64.Build.0 = Release|x64
+		{8561F338-903C-49A7-9D33-448B8662E4BD}.Release|x86.ActiveCfg = Release|Win32
+		{8561F338-903C-49A7-9D33-448B8662E4BD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +167,8 @@ Global
 		{B1BB6561-C2B6-4A82-850E-39E52CD80155} = {FB547CD0-C2F5-46D9-9D94-FB9E72F0DE79}
 		{90FE1BA7-A6FB-4A8A-9132-FA40066091EE} = {5C841799-CB08-4E6F-BE5A-EE7960857EBD}
 		{86667C6C-6492-42F4-A902-DE806BFA7AC9} = {90FE1BA7-A6FB-4A8A-9132-FA40066091EE}
+		{E40B9EAD-66D2-41CB-864B-AA66EB06F4CB} = {2AED24BB-9219-43D2-A26A-2B4A0F95A586}
+		{8561F338-903C-49A7-9D33-448B8662E4BD} = {2AED24BB-9219-43D2-A26A-2B4A0F95A586}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {120D5D6B-DA54-42F4-805F-A6C266DA33B3}
