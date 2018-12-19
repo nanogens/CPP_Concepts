@@ -1,7 +1,7 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
   Sequential_Containers.cpp
-\\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_6\sequential_containers\sequential_containers.cpp(26): warning C4018: '<': signed/unsigned mismatch
-\\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_6\sequential_containers\sequential_containers.cpp(145): warning C4018: '<': signed/unsigned mismatch
-\\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_6\sequential_containers\sequential_containers.cpp(156): warning C4018: '<': signed/unsigned mismatch
-\\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_6\sequential_containers\sequential_containers.cpp(165): warning C4018: '<': signed/unsigned mismatch
-  Sequential_Containers.vcxproj -> \\192.168.0.10\Public\GitHub\CPP_Concepts\Advanced C++ Programming-Udemy\CourseContents\Section_6\Sequential_Containers\.\Debug\Sequential_Containers.exe
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_6\sequential_containers\sequential_containers.cpp(26): warning C4018: '<': signed/unsigned mismatch
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_6\sequential_containers\sequential_containers.cpp(145): warning C4018: '<': signed/unsigned mismatch
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_6\sequential_containers\sequential_containers.cpp(156): warning C4018: '<': signed/unsigned mismatch
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_6\sequential_containers\sequential_containers.cpp(165): warning C4018: '<': signed/unsigned mismatch
+  Sequential_Containers.vcxproj -> D:\Github\CPP_Concepts\Advanced C++ Programming-Udemy\CourseContents\Section_6\Sequential_Containers\.\Debug\Sequential_Containers.exe

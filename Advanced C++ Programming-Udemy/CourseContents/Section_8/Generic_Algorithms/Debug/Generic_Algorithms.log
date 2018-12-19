@@ -1,16 +1,16 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
   Generic_Algorithms.cpp
-\\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(36): warning C4018: '<': signed/unsigned mismatch
-\\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(89): warning C4018: '<': signed/unsigned mismatch
-  \\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(107): note: see reference to function template instantiation 'void Display<int>(std::vector<int,std::allocator<_Ty>>)' being compiled
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(36): warning C4018: '<': signed/unsigned mismatch
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(89): warning C4018: '<': signed/unsigned mismatch
+  d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(107): note: see reference to function template instantiation 'void Display<int>(std::vector<int,std::allocator<_Ty>>)' being compiled
           with
           [
               _Ty=int
           ]
-\\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(172): warning C4018: '<': signed/unsigned mismatch
-  \\192.168.0.10\public\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(209): note: see reference to function template instantiation 'void DisplayDeque<int>(std::deque<int,std::allocator<_Ty>>)' being compiled
+d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(172): warning C4018: '<': signed/unsigned mismatch
+  d:\github\cpp_concepts\advanced c++ programming-udemy\coursecontents\section_8\generic_algorithms\generic_algorithms.cpp(209): note: see reference to function template instantiation 'void DisplayDeque<int>(std::deque<int,std::allocator<_Ty>>)' being compiled
           with
           [
               _Ty=int
           ]
-  Generic_Algorithms.vcxproj -> \\192.168.0.10\Public\GitHub\CPP_Concepts\Advanced C++ Programming-Udemy\CourseContents\Section_8\Generic_Algorithms\.\Debug\Generic_Algorithms.exe
+  Generic_Algorithms.vcxproj -> D:\Github\CPP_Concepts\Advanced C++ Programming-Udemy\CourseContents\Section_8\Generic_Algorithms\.\Debug\Generic_Algorithms.exe
